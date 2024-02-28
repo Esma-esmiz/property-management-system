@@ -33,7 +33,7 @@ $user= User::create([
   dd($dep->positions);
 ]); */
   
-    return redirect()->route('login');
+    return redirect()->route('home');
 });
 
 Auth::routes();
